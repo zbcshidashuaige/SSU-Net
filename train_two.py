@@ -13,7 +13,7 @@ from tqdm import tqdm
 import numpy as np
 from time import time
 from shutil import copyfile, move
-from models.networks.GBETransNet import get_GBETransNet
+from models.networks.SSUNet import SSUNet
 from framework2 import MyFrame
 from loss2.dice_bce_loss import Dice_bce_loss
 from loss2.diceloss import DiceLoss
@@ -211,7 +211,7 @@ def train(Model=None):
 
 
 if __name__ == '__main__':
-    net = get_GBETransNet(1)
+    net = SSUNet(1)
     # img = torch.randn((2, 3, 256, 256))
     # new = net(img)
     # print(new)
