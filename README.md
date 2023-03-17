@@ -10,7 +10,7 @@ In this work, you should have a GPU whose video memory is over 8 GB. The input i
 
 For w1 (the weight of boundary loss), we try 1,5,10, and 25 where 5 brought the best performance.
 
-##My predicted results
+## My predicted results
 ![图片1](https://user-images.githubusercontent.com/80099298/225638254-a6c18d08-abbb-41ab-b937-b8021f345957.png)
 not all compared methods here
 
