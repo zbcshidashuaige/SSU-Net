@@ -1,5 +1,5 @@
 # SSUNet
-This paper is being submitted for UIC2022 named "Shape Strengthed U-shape Network for Objects Extraction of Remote Sensing Images". Any questions could be answered if we can. The E-mail is 1091007069@qq.com.
+This paper is being submitted for UIC2022 named "Shape Strengthened U-shape Network for Objects Extraction of Remote Sensing Images". Any questions could be answered if we can. The E-mail is 1091007069@qq.com.
 
 For the network, it has two streams (body stream and shape stream). In body stream, the U-Net with Channel attention help the model obtain the body information. In shape stream, the lost shape information should be recovered.
 
